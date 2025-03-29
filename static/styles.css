@@ -33,7 +33,7 @@ h2 {
 p {
   font-size: 1rem;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .disclaimer {
@@ -90,9 +90,9 @@ a:hover {
   font-size: 0.9rem;
 }
 
-/* Thank You Page Specific Styles */
-.thank-you-message {
-  font-size: 1.1rem;
-  color: #444;
-  margin-bottom: 20px;
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #ff0050;
 }
