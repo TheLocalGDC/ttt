@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.disclaimer {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 10px;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #ff0050;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff0050;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e60047;
+}
+
+/* Links */
+a {
+  color: #ff0050;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.forgot-password,
+.signup {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* Thank You Page Specific Styles */
+.thank-you-message {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
